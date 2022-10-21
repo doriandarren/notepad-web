@@ -5,9 +5,7 @@ import PaginateNote from "@/components/PaginateNote.vue"
 import LoadingSpinner from "@/components/LoadingSpinner.vue";
 import Create from "@/components/Notes/Create.vue";
 import Edit from "@/components/Notes/Edit.vue";
-
 import useNotes from '@/composables/notes'
-import SearchFilter from "@/components/SearchFilter.vue";
 
 
 const { notes, getNotes, destroyNote, storeNote, updateNote } = useNotes()
@@ -104,20 +102,6 @@ const updateNoteForm = async (note) => {
 }
 
 
-
-
-
-
-const processSearch = (text) =>{
-  console.log(text.toLowerCase())
-
-  // return notes.filter(place => {
-  //   const regex = new RegExp(text, 'gi');
-  //   return place.title.match(regex);
-  // })
-}
-
-
 </script>
 
 
@@ -136,9 +120,6 @@ const processSearch = (text) =>{
 
 
 
-
-
-
     <div v-if="isCreate">
       <Create
           @saveNote="saveNote"
@@ -154,16 +135,6 @@ const processSearch = (text) =>{
           @updateNoteForm="updateNoteForm"
       />
     </div>
-
-
-
-
-
-<!--    <div class="text-right">-->
-<!--      <SearchFilter-->
-<!--          @processSearch="processSearch"-->
-<!--      />-->
-<!--    </div>-->
 
 
     <div v-if="isViewList">
@@ -223,9 +194,7 @@ const processSearch = (text) =>{
             </div>
             <!-- end card footer -->
           </div>
-
-
-
+          
         </template>
       </div>
 

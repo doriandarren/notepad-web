@@ -1,4 +1,4 @@
-## Proyecto NotePad API Restful
+## Proyecto NotePad
 
 Proyecto hecho en laravel, Vuejs y MySql. 
 
