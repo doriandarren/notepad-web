@@ -194,7 +194,7 @@ const updateNoteForm = async (note) => {
             </div>
             <!-- end card footer -->
           </div>
-          
+
         </template>
       </div>
 
