@@ -2,7 +2,7 @@
 
 Proyecto hecho en laravel, Vuejs y MySql. 
 
-Contempla lo siguiente:
+Framework y librerías utilizadas:
 
 - Laravel Framework 9.36.1
 - PHP 8.1.0
