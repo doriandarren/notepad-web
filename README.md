@@ -7,6 +7,7 @@ Contempla lo siguiente:
 - Laravel Framework 9.36.1
 - PHP 8.1.0
 - Vuejs 3
+- Tailwind
 
 ## Para Backend 
 
