@@ -5,7 +5,6 @@ import { useRouter } from 'vue-router'
 export default function useCompanies() {
     const note = ref([])
     const notes = ref([])
-
     const errors = ref('')
     const router = useRouter()
 
